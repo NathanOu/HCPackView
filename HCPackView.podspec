@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/*'
+  s.source_files = 'HCPackView/Classes/*'
   
   # s.resource_bundles = {
   #   'HCPackView' => ['HCPackView/Assets/*.png']
