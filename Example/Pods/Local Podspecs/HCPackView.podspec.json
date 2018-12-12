@@ -1,7 +1,7 @@
 {
   "name": "HCPackView",
   "version": "0.1.0",
-  "summary": "A short description of HCPackView.",
+  "summary": "A Good Pack View. Easy to use.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/NathanOu/HCPackView",
   "license": {
@@ -18,5 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HCPackView/Classes/**/*"
+  "source_files": "Source/Classes/**/*"
 }

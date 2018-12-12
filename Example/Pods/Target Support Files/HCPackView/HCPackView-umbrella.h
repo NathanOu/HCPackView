@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HCProtectingView.h"
 
 FOUNDATION_EXPORT double HCPackViewVersionNumber;
 FOUNDATION_EXPORT const unsigned char HCPackViewVersionString[];
