@@ -1,0 +1,6 @@
+framework module Pods_HCPackView_Tests {
+  umbrella header "Pods-HCPackView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

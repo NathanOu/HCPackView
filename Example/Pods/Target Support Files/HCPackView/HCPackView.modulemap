@@ -1,0 +1,6 @@
+framework module HCPackView {
+  umbrella header "HCPackView-umbrella.h"
+
+  export *
+  module * { export * }
+}

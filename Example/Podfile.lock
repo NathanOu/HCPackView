@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HCPackView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HCPackView (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HCPackView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HCPackView: 5d4811b48208a69678cd157beec5dd3e0c786ad9
+
+PODFILE CHECKSUM: f304d2058d8b6811a44c3fd180cfdf38f7c6deee
+
+COCOAPODS: 1.5.3
