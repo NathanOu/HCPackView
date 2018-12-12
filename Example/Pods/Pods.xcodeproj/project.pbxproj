@@ -33,6 +33,8 @@
 		B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C024BCB1E5EDFAF7D6CC3F86A948604D /* Pods-HCPackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A362F80B785556DC6CD97616898B51 /* Pods-HCPackView_Example-dummy.m */; };
+		D84A6FAE21C0FE1000AC51BF /* HCProtectingView.h in Headers */ = {isa = PBXBuildFile; fileRef = D84A6FAC21C0FE1000AC51BF /* HCProtectingView.h */; };
+		D84A6FAF21C0FE1000AC51BF /* HCProtectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D84A6FAD21C0FE1000AC51BF /* HCProtectingView.m */; };
 		E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
 		E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
 		EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
@@ -114,6 +116,8 @@
 		C6B3C6BA3681B1F364877CE2D729D0C7 /* Pods-HCPackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HCPackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8B412EC71FC872017B5CA64939AF930 /* Pods_HCPackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HCPackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9927FC29AD2C6AB3C815619054E9BAD /* Pods-HCPackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HCPackView_Tests-resources.sh"; sourceTree = "<group>"; };
+		D84A6FAC21C0FE1000AC51BF /* HCProtectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCProtectingView.h; path = Classes/HCProtectingView.h; sourceTree = "<group>"; };
+		D84A6FAD21C0FE1000AC51BF /* HCProtectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HCProtectingView.m; path = Classes/HCProtectingView.m; sourceTree = "<group>"; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E719932AE1CF58876361C262BADBAD90 /* Pods-HCPackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HCPackView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -318,6 +322,8 @@
 		BFE9F2EACA8C5927F419540C3DCAF543 /* HCPackView */ = {
 			isa = PBXGroup;
 			children = (
+				D84A6FAC21C0FE1000AC51BF /* HCProtectingView.h */,
+				D84A6FAD21C0FE1000AC51BF /* HCProtectingView.m */,
 				7F968962496732CE87DA60C1D096ADE9 /* Pod */,
 				6F0B260BA41B5F121BA9A581CF0E354D /* Support Files */,
 			);
@@ -373,6 +379,7 @@
 				B08725BB938AA3AACCA3C8C818FA4CF6 /* FBSnapshotTestCase.h in Headers */,
 				4D600539FC2E29EA7E28A2DA8A8B328C /* FBSnapshotTestCasePlatform.h in Headers */,
 				59FD5FAEFCF13CD39358A6F36C50BED8 /* FBSnapshotTestController.h in Headers */,
+				D84A6FAE21C0FE1000AC51BF /* HCProtectingView.h in Headers */,
 				BCDA265400AF5BCF21074C5AF1FD09A8 /* UIApplication+StrictKeyWindow.h in Headers */,
 				63EA4B9CBBAB30A69C2D73693019FDC5 /* UIImage+Compare.h in Headers */,
 				73247510D7AD93E5FDBA474B353BF919 /* UIImage+Diff.h in Headers */,
@@ -553,6 +560,7 @@
 				E2E2BC984CCC1978CB9E22B72258C641 /* FBSnapshotTestController.m in Sources */,
 				163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */,
 				AFF108D6E8D891F7B8148CA0158B2A23 /* UIApplication+StrictKeyWindow.m in Sources */,
+				D84A6FAF21C0FE1000AC51BF /* HCProtectingView.m in Sources */,
 				4C022C88B9E8D527B1426B5281756EDE /* UIImage+Compare.m in Sources */,
 				E4877E179010E4E588B6E9E61B047B60 /* UIImage+Diff.m in Sources */,
 				EA2C5FBB576DBC67BE3E2F5897704BBF /* UIImage+Snapshot.m in Sources */,
