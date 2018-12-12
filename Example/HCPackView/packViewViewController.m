@@ -7,6 +7,7 @@
 //
 
 #import "packViewViewController.h"
+#import <HCPackView/HCProtectingView.h>
 
 @interface packViewViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    HCProtectingView *protectingView = [[HCProtectingView alloc] initWithFrame:CGRectZero];
+    protectingView.frame = CGRectMake(100.f, 180.f, protectingView.frame.size.width, protectingView.frame.size.height);
+    [self.view addSubview:protectingView];
 }
 
 - (void)didReceiveMemoryWarning

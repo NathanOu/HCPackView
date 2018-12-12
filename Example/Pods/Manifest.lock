@@ -4,7 +4,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HCPackView (0.1.0)
+  - HCPackView (0.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HCPackView: 9014d6efe02f11fe025e6e0b9cfb9cba0ff82328
+  HCPackView: 8c0a5972359ca8a2daa0c2895b5d2c9b4a50d6ab
 
 PODFILE CHECKSUM: f304d2058d8b6811a44c3fd180cfdf38f7c6deee
 
